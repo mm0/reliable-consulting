@@ -1,0 +1,1 @@
+- subpaths don't work, for example directly loading reliable.consulting/portfolio gives 404, however loading home then clicking portfolio updates path, but refresh is 404
