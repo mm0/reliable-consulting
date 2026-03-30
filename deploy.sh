@@ -7,6 +7,11 @@ npm run build
 echo "Cleaning up dist..."
 rm -f dist/img/img  # Remove symlink if it exists
 
+echo "Restoring GitHub Pages files..."
+echo "www.reliable.consulting" > dist/CNAME
+touch dist/.nojekyll
+cp dist/index.html dist/404.html
+
 echo "Committing dist changes..."
 git add dist/
 git commit -m "Deploy: update build" || true  # Allow commit to fail if no changes
