@@ -1,0 +1,114 @@
+.clear {
+  clear: both;
+}
+/* Override Skrollr-dependent styles for React version */
+
+/* Background image - fixed parallax effect via CSS */
+.parallax-image-wrapper {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0;
+  width: 100%;
+  height: 100vh !important;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.parallax-image {
+  display: block !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+#skrollr-body {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 180px;
+  min-height: calc(100vh - 180px);
+}
+
+/* Original CSS hides these (Backbone router called .show() manually) */
+footer {
+  display: block !important;
+}
+
+.about-content {
+  display: block !important;
+}
+
+/* Content sections transparent to show parallax */
+section[role="about-content"],
+section[role="contact-content"],
+section[role="resume-content"],
+section[role="portfolio-content"] {
+  background: transparent;
+}
+
+footer {
+  position: fixed !important;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  background: rgba(255, 255, 255, 0.77) !important;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+footer .cr {
+    font-size: 1.3em;
+    color: #000;
+    letter-spacing: 2px;
+    line-height: 60px;
+}
+
+/* Resume page - black text on noise background */
+.resume-container {
+  color: #000 !important;
+}
+
+.resume-container h2,
+.resume-container h3,
+.resume-container h4 {
+  color: #000;
+}
+
+/* Contact page - white container with black text */
+#contact_container {
+  background: #ffffff !important;
+  color: #000 !important;
+}
+
+#contact_container h5,
+#contact_container .text-center,
+#contact_container .lead {
+  color: #000 !important;
+}
+
+/* Contact button */
+#contact_container .btn {
+  background: #2543c5 !important;
+  border-color: #2543c5 !important;
+}
+
+/* Project carousel - fill container width */
+.project-images {
+  padding: 0;
+}
+
+.project-images .carousel.slide {
+  width: 100%;
+}
+
+.project-images .item img {
+  width: 100%;
+  height: auto;
+}
