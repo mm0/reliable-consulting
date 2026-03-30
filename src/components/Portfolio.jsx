@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 
 const projects = {
   left: [
-    { slug: 'allstate-protection-plans', logo: '/img/portfolio/allstate_app.png', alt: 'Allstate Protection Plans', title: 'Software Engineer, DevOps', desc: 'Previously SquareTrade. Extended warranty and protection plan services for consumer electronics and appliances.' },
+    { slug: 'allstate-protection-plans', logo: '/img/portfolio/allstate_app.png', alt: 'Allstate Protection Plans', title: 'Tech Lead, DevOps Engineering', desc: 'Led platform engineering initiatives supporting 500+ engineers. Drove GitOps adoption, established disaster recovery planning, and managed CI/CD infrastructure serving extended warranty and protection plan services.' },
     { slug: 'cloudoptimizer', logo: '/img/portfolio/logos/cloudoptimizer.png', alt: 'CloudOptimizer', title: 'Software Engineer, DevOps', desc: 'Public comparison site for cloud providers.' },
     { slug: 'tradesy', logo: '/img/portfolio/logos/tradesy2x.png', alt: 'Tradesy', title: 'Software Engineer, DevOps', desc: 'As member of the infrastructure team at Tradesy, I was able to ensure the company remained stable and available during a period of high growth.' },
     { slug: 'prolific', logo: '/img/portfolio/logos/prolific.png', alt: 'Prolific Interactive', title: 'Software Engineer', desc: 'At Prolific Interactive, then a fledgling digital agency, I held the role of Senior Backend Engineer and helped the company become a premier Mobile-first agency.' },
