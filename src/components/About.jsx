@@ -34,19 +34,19 @@ export default function About() {
           </div>
           <div className="bio-summary">
             <p>
-              I am a heavily motivated Software Engineer with a passion toward the world of Internet Start-Ups and the importance of effective Software Architecture and Development, Automation and Cloud Engineering.
+              I am a Staff-level Tech Lead with 15+ years of experience architecting CI/CD platforms, cloud infrastructure, and developer tooling. My passion lies in enabling organizations to scale reliably through platform engineering, strategic architectural decisions, and building high-performing engineering teams.
             </p>
             <p>
-              Since graduating New York University with a degree in Computer Science and Economics, along with my lifelong interest in commerce and the internet, I have primarily focused on E-Commerce, web and mobile application development, System Administration and DevOps.
+              Since graduating New York University with a degree in Computer Science and Economics, I have built expertise across the full spectrum of software engineering—from early-stage startups to enterprise organizations. My focus has evolved from hands-on development to strategic platform engineering, where I now lead teams of engineers and drive organizational-level infrastructure initiatives.
             </p>
             <p>
-              I have been committed to helping transform ideas into reality through software engineering and by improving software platforms and software engineering teams. I enjoy being a pivotal component in the process of building businesses from the ground up with the primary goal of reaching profitability and supporting growth. I am a strong proponent of the open-source software community and also recognize the power of proprietary software. I believe in the power to bring people and markets closer that Modern Computing, networking, Marketing, and Social Media provide.
+              I am passionate about building platforms and engineering cultures that enable teams to ship faster and more reliably. Whether architecting GitOps workflows, establishing disaster recovery strategies, or mentoring engineering leaders, I focus on solving problems that unlock organizational growth. I believe in leveraging both open-source and proprietary solutions strategically to maximize impact while minimizing costs.
             </p>
             <p>
-              Today, I continue to work alongside business owners and software engineering teams on promising ideas for new businesses and software. As I continually work towards developing my technical and professional skills, I enjoy the opportunities provided by working with different companies and teams filled with expertise in a variety of fields. Additionally, I enjoy working and providing expertise for teams that have various Cloud initiatives and projects.
+              Today, I partner with organizations to transform their infrastructure and empower their engineering teams. I lead platform engineering initiatives that serve hundreds of engineers, drive architectural decisions that shape how organizations scale, and mentor teams to think strategically about reliability and efficiency. I continue to stay current with cloud technologies, emerging DevOps practices, and the evolving landscape of infrastructure automation.
             </p>
             <p>
-              My hobbies include: music production, programming, soccer, yoga, hiking, fitness, traveling, reading, podcasts, investing, day-trading and spending time with friends and family.
+              My hobbies include: music production, programming, soccer, yoga, hiking, fitness, traveling, reading, podcasts, investing, and spending time with friends and family.
             </p>
             <div className="clear"></div>
           </div>
