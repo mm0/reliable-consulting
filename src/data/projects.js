@@ -1,11 +1,11 @@
 export const projectData = {
   'allstate-protection-plans': {
     title: 'Allstate Protection Plans (Previously SquareTrade)',
-    role: 'Software Engineer, DevOps',
-    technologies: '',
+    role: 'Tech Lead, DevOps Engineering',
+    technologies: 'AWS, CloudBees Jenkins, GitOps, Terraform, Kubernetes, Docker, Splunk, CloudWatch, OpsGenie',
     urls: [{ href: 'https://www.allstateprotectionplans.com', label: 'Allstate Protection Plans' }],
     lightbox_images: [{ src: '/img/portfolio/allstate_app.png', caption: 'Allstate Protection Plans' }],
-    description: `<p>Allstate Protection Plans, previously known as SquareTrade, provides extended warranty and protection plan services for consumer electronics, appliances, and other products. With a mission to protect what matters most, Allstate Protection Plans helps millions of customers safeguard their purchases against damage, accidents, and defects.</p><p>As a Software Engineer and DevOps specialist, I worked on developing and maintaining the infrastructure that powers the Allstate Protection Plans platform. This involved working with cloud infrastructure, deployment pipelines, and ensuring reliable service delivery for customers across multiple channels.</p>`,
+    description: `<p>Allstate Protection Plans, previously known as SquareTrade, provides extended warranty and protection plan services for consumer electronics, appliances, and other products. With a mission to protect what matters most, Allstate Protection Plans helps millions of customers safeguard their purchases against damage, accidents, and defects.</p><p>As Tech Lead of DevOps Engineering, I lead a team of 12 engineers providing CI/CD, infrastructure, and platform services to over 500 software engineers across the organization. I drive platform strategy and architectural decisions while establishing disaster recovery planning and business continuity initiatives.</p><p>During my tenure as Senior DevOps Engineer, I architected and implemented GitOps workflows and Infrastructure as Code standards across the organization. I designed and implemented the CloudBees Jenkins CI platform and developed shared pipeline libraries to enable consistent, reliable deployments. The platform supports rapid iteration and enables the engineering organization to ship reliably at scale.</p>`,
   },
   cloudoptimizer: {
     title: 'CloudOptimizer.io',
