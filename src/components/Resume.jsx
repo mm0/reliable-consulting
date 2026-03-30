@@ -2,16 +2,30 @@ import { useEffect } from 'react'
 
 const workExperience = [
   {
-    location: 'Los Angeles, CA', dates: '2017 - Present',
-    company: 'Consulting', title: 'DevOps and Software Engineer',
+    location: 'Remote', dates: '2022 - Present',
+    company: 'Allstate Protection Plans', title: 'Tech Lead, DevOps Engineering',
     items: [
-      'Hired by Clients such as Technologent, Farmers Insurance, LawTechSupport, Heartbeat (getheartbeat.co), and various others for a variety of DevOps, and Software Development Projects',
-      'Created Idempotent Ansible Roles for installation, configuration and deployment of a variety of Redhat, IBM and Oracle related Enterprise Software.',
-      'Utilized Terraform, Ansible, and Jenkins for automated deployments of software in AWS. Automated environments using Ansible, Vagrant, and Terraform.',
-      'Implemented monitoring solutions such as Nagios, CloudWatch, and Rollbar',
-      'Automated deployments of OSS Nextcloud and Mattermost',
-      'Implemented automated solutions for Elasticsearch, Jenkins, JBoss, Informatica, OSB, and Websphere MQ',
-      'Automated processes via AWS Lambda, Node.js, Docker, and Kubernetes',
+      'Lead a team of 12 DevOps engineers providing CI/CD, infrastructure, and platform services to 500+ software engineers.',
+      'Drive platform strategy, initiative planning, and architecture consortium decisions across the engineering organization.',
+      'Lead disaster recovery planning and business continuity efforts; establish cross-functional partnerships with IT, DBAs, and engineering leadership.',
+    ]
+  },
+  {
+    location: 'Remote', dates: '2019 - 2022',
+    company: 'Allstate Protection Plans', title: 'Senior DevOps Engineer',
+    items: [
+      'Architected and drove adoption of GitOps workflows, Infrastructure as Code standards, and configuration management across the organization.',
+      'Re-architected the release process and git branching strategy, designing and implementing the CloudBees Jenkins CI platform and shared pipeline libraries in Groovy.',
+      'Served as escalation point for complex software, platform, and release engineering issues organization-wide.',
+    ]
+  },
+  {
+    location: 'Remote', dates: '2017 - 2019',
+    company: 'Various', title: 'DevOps Consultant',
+    items: [
+      'Delivered DevOps solutions for Technologent, Farmers Insurance, LawTechSupport, Heartbeat, and CloudOptimizer.io.',
+      'Designed CI/CD pipelines and configuration management for RedHat, IBM, and Oracle enterprise environments using Terraform, Ansible, and Jenkins.',
+      'Architected serverless and containerized solutions using AWS Lambda, API Gateway, Node.js, Docker, and Kubernetes.',
     ]
   },
   {
