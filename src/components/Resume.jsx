@@ -170,16 +170,24 @@ const workExperience = [
 ]
 
 const skills = [
-  'API Development', 'AWS, GCE, Azure, Alicloud', 'Agile Development, SDLC', 'Ansible',
-  'Apache2, Tomcat', 'Auto-scaling', 'Bash, Python, PHP, JAVA', 'Code Documentation',
-  'Continuous Integration/Delivery', 'Configuration Management', 'DB Administration',
-  'DB Schema Design', 'DevOps', 'Development Environments', 'Disaster Recovery',
-  'DNS, WAF, Traffic Management', 'Docker', 'E-Commerce', 'Elasticsearch', 'Full Stack',
-  'Git, Github, Gitlab', 'High Availability', 'Jenkins', 'Kubernetes',
-  'Linux Tuning and Configuration', 'Load Balancing, HAProxy, Nginx', 'Load Testing',
-  'Magento', 'Mentoring', 'MongoDB', 'Monitoring', 'MySQL/Percona', 'Nagios', 'node.js',
-  'Problem Solving', 'Redis Clustering', 'Selenium', 'Slack, Webhooks/API', 'Splunk',
-  'Static Code Analysis', 'Terraform, Packer, Vault', 'Travis-CI', 'Vagrant, VirtualBox', 'Vim',
+  'API Development', 'ArgoCD', 'Akamai', 'Agile Development, SDLC', 'Ansible', 'Ansible',
+  'Apache2, Tomcat', 'Auto-scaling', 'AWS', 'Bash', 'BCP', 'CloudBees', 'CloudFormation', 'CloudFront', 'CloudWatch',
+  'Code Documentation', 'Configuration Management', 'Container Security', 'Continuous Integration/Delivery', 'CueLang',
+  'DataDog', 'DB Administration', 'DB Schema Design', 'Deployment Strategy', 'DevOps', 'Development Environments', 'Disaster Recovery',
+  'DNS, WAF, Traffic Management', 'Docker', 'E-Commerce', 'EC2', 'ECS', 'Elasticsearch', 'env0', 'Full Stack',
+  'Git', 'GitHub', 'GitLab', 'GitOps', 'Grafana', 'Groovy', 'Go',
+  'Helm', 'High Availability', 'IAM', 'Incident Management', 'Incident Response', 'Infrastructure as Code',
+  'Jenkins', 'JSON', 'Kubernetes',
+  'Linux', 'Linux Tuning and Configuration', 'Load Balancing, HAProxy, Nginx', 'Load Testing',
+  'Magento', 'Make', 'Mentoring', 'MongoDB', 'Monitoring', 'MySQL/Percona',
+  'Nagios', 'node.js', 'OpsGenie',
+  'PHP', 'Policy as Code', 'Problem Solving', 'Python',
+  'Redis Clustering', 'Release Management', 'Route 53',
+  'S3', 'Selenium', 'Sentinel', 'Shell Scripting', 'Slack, Webhooks/API', 'SLOs/SLIs', 'SOC 2 Compliance', 'Splunk', 'Spinnaker',
+  'Static Code Analysis', 'Systems Manager',
+  'Technical Leadership', 'Terraform', 'Travis-CI',
+  'Vagrant, VirtualBox', 'VPC', 'Vim',
+  'YAML',
 ]
 
 export default function Resume() {
