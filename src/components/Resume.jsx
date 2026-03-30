@@ -194,7 +194,9 @@ export default function Resume() {
           <div className="col-md-12 text-center">
             <h3>
               <i className="fa fa-file-pdf-o" aria-hidden="true"></i>{' '}
-              <a target="_blank" rel="noreferrer" href="/MattMargolinResume.pdf">Download as PDF</a>
+              <a target="_blank" rel="noreferrer" href="/MattMargolinResume.pdf">Download Compact</a>
+              {' | '}
+              <a target="_blank" rel="noreferrer" href="/MattMargolinResume-Full.pdf">Download Full</a>
             </h3>
           </div>
         </div>
