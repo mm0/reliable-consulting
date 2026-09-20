@@ -4,9 +4,6 @@ set -e
 echo "Building site..."
 npm run build
 
-echo "Cleaning up dist..."
-rm -f dist/img/img  # Remove symlink if it exists
-
 echo "Restoring GitHub Pages files..."
 echo "www.reliable.consulting" > dist/CNAME
 touch dist/.nojekyll
