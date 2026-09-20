@@ -171,6 +171,14 @@ export const projectData = {
     lightbox_images: [],
     description: `<p>This project is a PHP PSR-0 compatible Library for automating MySQL filesystem backups and quick restoration.</p><p>This serves as a wrapper around the Perl Innobackupex Script developed by Percona and provides a modular set of features for archiving backups and retrieving backups from multiple locations. Encryption and compression features are also available.</p><p>This project is provided free of charge with a BSD-3 License.</p>`,
   },
+  'free-passport-photo-maker': {
+    title: 'Free Passport Photo Maker',
+    role: 'Owner + Developer',
+    technologies: 'JavaScript, Vite, MediaPipe Tasks Vision (WebAssembly), Canvas API',
+    urls: [{ href: 'https://mm0.github.io/free-passport-photo-maker/', label: 'Free Passport Photo Maker' }],
+    lightbox_images: [{ src: '/img/portfolio/free-passport-photo-maker.png', caption: 'Free Passport Photo Maker' }],
+    description: `<p>Free Passport Photo Maker turns any photo into a print-ready passport photo sheet, entirely for free with no account and no upload. It auto-crops a photo to standard 2x2" head-size/eye-line proportions, can swap in a plain white background, and lays out a 4x6" sheet of six photos ready to print at home or at a kiosk.</p><p>Everything runs locally in the browser: face detection and background segmentation use MediaPipe Tasks Vision (WebAssembly), composited with the Canvas API, built with vanilla JavaScript and Vite and hosted free on GitHub Pages.</p>`,
+  },
   'magento-development-environment': {
     title: 'Open-Source Magento CE 1.8 Development Environment',
     role: 'Owner',

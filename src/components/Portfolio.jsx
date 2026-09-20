@@ -19,6 +19,7 @@ const projects = {
     { slug: 'innobackupex', logoText: 'PHP Innobackupex', title: 'Owner + Developer', desc: 'An open-source project developed at Tradesy as a PHP package for automating backup, encryption and archival of incremental MySQL File-system backups.' },
     { slug: 'magento-development-environment', logoText: 'Magento Dev Environment', title: 'Owner + Developer', desc: 'An open-source barebones local Magento development environment utilizing Vagrant, PHP, Chef, MySQL and Magento.' },
     { slug: 'boothify', logo: '/img/portfolio/logos/boothify.png', alt: 'Boothify.me side business', title: 'Developer', desc: 'An internal project at Prolific, I helped developed the iOS App and Backend API as well as on-premise tooling.' },
+    { slug: 'free-passport-photo-maker', logoText: 'Free Passport Photo Maker', title: 'Owner + Developer', desc: 'A free browser-based tool that auto-crops photos to passport-photo proportions and lays out a print-ready photo sheet, entirely client-side.' },
   ],
 }
 
