@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import Carousel from './Carousel'
 
 const previewItems = [
+  { img: '/img/allstate.png', alt: 'Allstate Protection Plans', project: 'allstate-protection-plans' },
   { img: '/img/resp/cloudoptimizer-desktop.jpg', alt: 'Cloud Comparison - www.cloudoptimizer.io', project: 'cloudoptimizer' },
   { img: '/img/tradesy.jpg', alt: 'Online Marketplace - www.tradesy.com', project: 'tradesy' },
   { img: '/img/gatherandsave.jpg', alt: 'MVP App - Gather and Save', project: 'gatherandsave' },
@@ -11,6 +12,7 @@ const previewItems = [
   { img: '/img/wondermode.jpg', alt: 'e-Commerce Start-up - Wondermode.com', project: 'wondermode' },
   { img: '/img/boothify.jpg', alt: 'iOS App - Boothify.me', project: 'boothify' },
   { img: '/img/prolific.jpg', alt: 'Digital Agency - Prolific Interactive', project: 'prolific' },
+  { img: '/img/free-passport-photo-maker.png', alt: 'Free Passport Photo Maker', project: 'free-passport-photo-maker' },
 ]
 
 export default function Home() {
