@@ -1,0 +1,230 @@
+{
+  "_comment": "Single source for tagline, skills and jobs. Run `python3 build.py` to regenerate the marked regions in the .tex files. Plain text only: build.py escapes & % $ # _ for LaTeX. Skill items and bullets take an optional \"in\": [\"compact\"|\"full\"] to limit them to one variant. A bullet's \"compact\" key overrides its text in the compact variant.",
+  "contact": {
+    "email": "mdm410@nyu.edu",
+    "phone": "+1 (646) 543-9673",
+    "location": {"text": "Los Angeles, CA", "url": "https://goo.gl/maps/LfHQsbt7DBikxva36"},
+    "homepage": {"text": "reliable.consulting", "url": "https://www.reliable.consulting"},
+    "github": {"text": "@mm0", "url": "https://github.com/mm0"},
+    "linkedin": {"text": "Matt Margolin", "url": "https://www.linkedin.com/in/mattmarg"}
+  },
+  "tagline": "Tech Lead with 15+ years building CI/CD platforms and cloud infrastructure. Led platform teams that cut AWS spend by about 40% and reduced full-environment deploys from an hour to minutes. Now building safe, cost-controlled AI-assisted engineering workflows.",
+  "skills": [
+    {
+      "label": "Cloud & Infrastructure",
+      "items": [
+        "AWS", "Terraform", "OpenTofu", "Kubernetes", "Docker", "Helm", "GitOps", "EC2", "S3", "IAM",
+        {"text": "VPC", "in": ["full"]},
+        {"text": "Systems Manager", "in": ["full"]},
+        "Route 53", "CloudFront",
+        {"text": "Akamai", "in": ["full"]}
+      ]
+    },
+    {
+      "label": "CI/CD & Automation",
+      "items": ["Jenkins", "CloudBees", "GitHub Actions", "env0", "Release Management", "Deployment Strategy", "Ansible"]
+    },
+    {
+      "label": "Observability",
+      "items": ["Splunk", "CloudWatch", "DataDog", "Grafana", "Cloudability", "OpsGenie", "SLOs/SLIs", "Incident Response"]
+    },
+    {
+      "label": "Languages & Tools",
+      "items": [
+        "Python", "Go", "Java", "Groovy", "Bash", "CueLang", "Git", "Linux",
+        {"text": "Make", "in": ["full"]},
+        "YAML", "JSON"
+      ]
+    },
+    {
+      "label": "Practices",
+      "items": [
+        "Infrastructure as Code", "Platform Engineering", "Incident Management", "Disaster Recovery",
+        {"text": "BCP", "in": ["full"]},
+        "Mentorship", "Technical Leadership",
+        {"text": "Security", "in": ["compact"]},
+        {"text": "Container Security", "in": ["full"]},
+        "Policy as Code",
+        {"text": "Sentinel", "in": ["full"]},
+        "SOC 2 Compliance"
+      ]
+    },
+    {
+      "label": "AI & Agentic Systems",
+      "items": ["LLM Infrastructure", "Copilot SDK", "MCP Servers", "Agentic Workflows", "Token Cost Optimization", "AI Usage Analytics"]
+    }
+  ],
+  "site_keywords": [
+    "API Development", "Agile Development, SDLC", "Apache2, Tomcat", "Auto-scaling", "Code Documentation",
+    "Configuration Management", "Continuous Integration/Delivery", "DB Administration", "DB Schema Design", "DevOps",
+    "Development Environments", "DNS, WAF, Traffic Management", "E-Commerce", "Elasticsearch", "Full Stack", "GitHub",
+    "GitLab", "High Availability", "Linux Tuning and Configuration", "Load Balancing, HAProxy, Nginx", "Load Testing",
+    "Magento", "Mentoring", "MongoDB", "Monitoring", "MySQL/Percona", "Nagios", "node.js", "PHP", "Problem Solving",
+    "Redis Clustering", "Selenium", "Shell Scripting", "Slack, Webhooks/API", "Static Code Analysis", "Travis-CI",
+    "Vim"
+  ],
+  "jobs": [
+    {
+      "dates": "2022 - Present",
+      "company": "Allstate Protection Plans - Remote",
+      "title": "Tech Lead, DevOps Engineering",
+      "bullets": [
+        {
+          "text": "Led a globally distributed team of 12 DevOps engineers providing CI/CD, infrastructure, and platform services to 500+ software engineers, standardizing metadata-driven and GitOps deployment practices across the software development lifecycle.",
+          "compact": "Led globally distributed team of 12 engineers supporting 500+ developers; standardized metadata-driven and GitOps deployment practices."
+        },
+        {"text": "Cut AWS spend from $500K+ to $300K per month through Cloudability cost visibility, cost controls, and compute, storage, and I/O optimization."},
+        {"text": "Designed and implemented metadata management using CueLang to drive consistent, metadata-driven deployments."},
+        {"text": "Led migration of 150+ services, 150+ Angular apps, and associated databases and servers from on-premises RHEV to AWS EKS using Terraform for resource provisioning, supporting the monolith to microservices transition; owned IAM policy design."},
+        {"text": "Reduced full-environment deploy time from 1 hour to minutes; optimized Gradle plugins to cut build times and moved deployments from Gradle-based to artifact-based."},
+        {
+          "text": "Automated disaster recovery and failover for Jenkins CI/CD infrastructure, reducing recovery from 4 hours of manual process to 1 hour.",
+          "compact": "Automated disaster recovery and failover, reducing recovery from 4 hours of manual process to 1 hour."
+        },
+        {
+          "text": "Designed and rolled out custom GitFlow with automated enforcement and a rollback strategy, cutting MTTR from hours to minutes; added safeguards and monitoring that reduced incidents by 50%. Established standards for pipeline code, IaC, and automation.",
+          "compact": "Designed custom GitFlow with automated enforcement and a rollback strategy, cutting MTTR from hours to minutes; added safeguards and monitoring that reduced incidents by 50%."
+        },
+        {"text": "Migrated and managed 400+ repositories from GitHub Enterprise on-premises to GitHub SaaS using Terraform; planned migration from Terraform to OpenTofu and env0."},
+        {
+          "text": "Drove post-acquisition integration of SquareTrade CI/CD platform into Allstate; rewrote shared pipeline libraries to align with Allstate infrastructure while standardizing practices across both orgs.",
+          "compact": "Drove post-acquisition integration of SquareTrade CI/CD into Allstate; rewrote shared pipeline libraries."
+        },
+        {"text": "Implemented Copilot SDK to configure developer workstations with skills and agents from a maintained repository; built 5+ MCP servers integrating ticket tracking, GitHub, and Jenkins."},
+        {"text": "Implemented AI token optimization and usage statistics to control cost and measure adoption."}
+      ]
+    },
+    {
+      "dates": "2019 - 2022",
+      "company": "Allstate Protection Plans - Remote",
+      "title": "Senior DevOps Engineer",
+      "bullets": [
+        {"text": "Architected and drove adoption of GitOps deployment workflows and Terraform/env0 Infrastructure as Code standards across the organization."},
+        {
+          "text": "Designed and implemented CloudBees CI platform and automation code; established release process, branching standards, and cloud-native practices; integrated artifact repositories and security scanning to prepare for infrastructure migration.",
+          "compact": "Designed and implemented CloudBees CI platform; established release process, branching standards, artifact repositories, and security scanning ahead of cloud migration."
+        },
+        {"text": "Optimized Liquibase automation for reliable database deployments; mentored teams and resolved critical infrastructure blockers.", "in": ["compact"]},
+        {"text": "Optimized Liquibase database schema automation to improve reliability and consistency of database deployments across environments.", "in": ["full"]},
+        {"text": "Provided technical leadership on complex software, platform, and release engineering issues organization-wide; mentored teams and drove resolution of critical infrastructure blockers.", "in": ["full"]}
+      ]
+    },
+    {
+      "dates": "2017 - 2019",
+      "company": "Various - Remote",
+      "title": "DevOps Consultant",
+      "bullets": [
+        {"text": "Delivered DevOps solutions for Technologent, Farmers Insurance, LawTechSupport, Heartbeat, and CloudOptimizer.io.", "in": ["full"]},
+        {
+          "text": "Designed CI/CD pipelines and configuration management for RedHat, IBM, and Oracle enterprise environments using Jenkins and Ansible.",
+          "compact": "Designed Jenkins CI/CD pipelines and Ansible configuration management for RedHat, IBM, and Oracle enterprise environments."
+        },
+        {"text": "Architected serverless and containerized solutions using AWS Lambda, API Gateway, Node.js, Docker, and Kubernetes.", "in": ["full"]}
+      ]
+    },
+    {
+      "dates": "2014 - 2017",
+      "company": "Tradesy (Acquired) - Santa Monica, CA",
+      "title": "Lead DevOps Engineer",
+      "bullets": [
+        {"text": "Built and led the DevOps function from the ground up, growing the team to 4 engineers supporting 50+ developers and owning a $1MM+ annual AWS budget."},
+        {"text": "Built CI/CD pipelines and infrastructure as code; established monitoring and incident response; engineered dynamic AWS environments for 40+ developers; led microservices transition with Kubernetes.", "in": ["compact"]},
+        {"text": "Built CI/CD pipelines and cloud infrastructure as code from scratch; established monitoring and incident response with OpsGenie, Splunk, and CloudWatch; scaled infrastructure to support rapid company growth.", "in": ["full"]},
+        {"text": "Engineered dynamic AWS QA, CI, and Staging environments, enabling rapid integration for 40+ developers with minimal deployment risk.", "in": ["full"]},
+        {"text": "Drove scalability with Auto Scaling and performance testing; led initial transition to microservices architecture and Kubernetes.", "in": ["full"]},
+        {"text": "Orchestrated complete infrastructure migration from managed physical servers to AWS.", "in": ["full"]},
+        {"text": "Implemented High Availability production practices utilizing DNS, ELB, HAProxy, Percona, Elasticsearch, Redis, and RabbitMQ; achieved 100% uptime through systematic monitoring and incident response.", "in": ["full"]},
+        {"text": "Utilized Akamai DNS/CDN services and ModSecurity for security configuration and analysis.", "in": ["full"]},
+        {"text": "Automated developer environment configuration using Vagrant, VirtualBox, Ruby, Bash, and Ansible.", "in": ["full"]}
+      ]
+    },
+    {
+      "in": ["compact"],
+      "dates": "2012 - 2014",
+      "company": "Prolific Interactive - Brooklyn, NY",
+      "title": "Backend Developer",
+      "bullets": []
+    },
+    {
+      "in": ["full"],
+      "dates": "2013 - 2014",
+      "company": "Vinport Marketing - New York, NY",
+      "title": "Full Stack Developer, Consultant",
+      "bullets": [
+        {"text": "Transitioned from Prolific Interactive to independently maintain and extend Magento e-commerce platform."},
+        {"text": "Developed custom Magento plugins and managed AWS infrastructure and databases."}
+      ]
+    },
+    {
+      "in": ["full"],
+      "dates": "2012 - 2013",
+      "company": "Prolific Interactive - Brooklyn, NY",
+      "title": "Backend Developer",
+      "bullets": [
+        {"text": "Led backend development and server administration, helping the company grow into a leading interactive digital agency."},
+        {"text": "Architected software and developed using various technologies such as PHP, Node.js, and Objective-C/iOS."},
+        {"text": "Led backend development by developing APIs for projects: Babeebook (iOS App), Fox MyTowns (iOS App), and Boothify (internal iOS/iPad App and custom automation for business)."},
+        {"text": "Created internal CRUD API framework designed for reusability."},
+        {"text": "Administered MySQL and Mongo Databases."},
+        {"text": "Managed and configured servers on AWS and created custom CLI tool for automation."},
+        {"text": "Used Git for source-code management and Pivotal Tracker for agile project management."},
+        {"text": "Provided system administration for various projects and to support a team of 10 engineers."}
+      ]
+    },
+    {
+      "in": ["compact"],
+      "dates": "2010 - 2012",
+      "company": "WonderMode - New York, NY",
+      "title": "Lead Developer",
+      "bullets": []
+    },
+    {
+      "in": ["full"],
+      "dates": "2011 - 2012",
+      "company": "WonderMode.com - New York, NY",
+      "title": "Lead Developer, Consultant",
+      "bullets": [
+        {"text": "Inherited project with agreement from Axis International."},
+        {"text": "Developed front end user interface and backend (LAMP) for high-end e-commerce fashion startup wonderMode.com, launched in spring 2011."},
+        {"text": "Administered and maintained LAMP servers in AWS and Rackspace."},
+        {"text": "Created custom PHP and jQuery modules for e-commerce shopping cart and content management; built an admin dashboard for managing orders, global shipments, and payments."},
+        {"text": "Developed the online marketplace to be manageable by non-technical staff."},
+        {"text": "Implemented features such as order and payment processing, shipping automation, tooling, and integration with various APIs."}
+      ]
+    },
+    {
+      "in": ["full"],
+      "dates": "2010 - 2011",
+      "company": "Axis International - New York, NY",
+      "title": "Developer, Assistant Project Manager",
+      "bullets": [
+        {"text": "Developed various modules and plugins using jQuery and PHP for various projects and assisted in the front-end HTML/CSS coding."},
+        {"text": "Helped manage local and outsourced team of developers and distributed tasks using the Agile Methodology."},
+        {"text": "Provided continuous support and development for the improvement of various projects."},
+        {"text": "Learned LAMP stack development."}
+      ]
+    },
+    {
+      "in": ["full"],
+      "dates": "2010",
+      "company": "US Department of Commerce - New York, NY",
+      "title": "Technology Automation Clerk",
+      "bullets": [
+        {"text": "Provided maintenance and system administration for hundreds of computers and peripheral equipment in an administrative office environment."},
+        {"text": "Executed duties including computer repair, remedy ticket management."},
+        {"text": "Administered user accounts, various devices and software."}
+      ]
+    },
+    {
+      "in": ["full"],
+      "dates": "2008 - 2010",
+      "company": "NYU Liberal Studies - New York, NY",
+      "title": "Instructional Technology Coordinator",
+      "bullets": [
+        {"text": "Worked as assistant to the Director of Instructional Technology."},
+        {"text": "Administered Blackboard, Educational Content Management System for common resources, used by the department."},
+        {"text": "Developed and implemented online resource management of learning resources and media through web design, blog management and various technology/web projects."}
+      ]
+    }
+  ]
+}
